@@ -10,14 +10,14 @@ Insertsort implementation using sorted array:
 Implementation using 2 unbalanced binary search trees:
 * Find insertion place in O(logN)
 * Search median time O(logN), worst case O(N)
-* Inserting new element log(N), worst case O(N)
+* Inserting new element O(logN), worst case O(N)
 * Total complexity : O(logN), worst case O(N)
 * Total complexity for N elements : O(NlogN), worst case O(N)^2
 
 Implementation using 2 heaps:
 * Find insertion place in O(logN)
 * Search median time O(logN)
-* Inserting new element log(N)
+* Inserting new element O(logN)
 * Total complexity : O(logN)
 * Total complexity for N elements : O(NlogN)
 
