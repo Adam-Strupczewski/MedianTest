@@ -1,22 +1,22 @@
 # MedianTest
 
 Insertsort implementation using sorted array:
-* Find insertion place in O(logN)
 * Search median time O(1)
+* Find insertion place in O(N), could be O(logN)
 * Inserting new element O(N)
 * Total complexity : O(N)
 * Total complexity for N elements : O(N)^2
 
 Implementation using 2 unbalanced binary search trees:
-* Find insertion place in O(logN)
 * Search median time O(logN), worst case O(N)
+* Find insertion place in O(logN)
 * Inserting new element O(logN), worst case O(N)
 * Total complexity : O(logN), worst case O(N)
 * Total complexity for N elements : O(NlogN), worst case O(N)^2
 
 Implementation using 2 heaps:
-* Find insertion place in O(logN)
-* Search median time O(logN)
+* Search median time O(1)
+* Find insertion place in O(1)
 * Inserting new element O(logN)
 * Total complexity : O(logN)
 * Total complexity for N elements : O(NlogN)
