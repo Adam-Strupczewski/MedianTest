@@ -9,7 +9,7 @@ Insertsort implementation using sorted array:
 
 Implementation using 2 unbalanced binary search trees:
 * Search median time O(logN), worst case O(N)
-* Find insertion place in O(logN)
+* Find insertion place in O(logN), worst case O(N)
 * Inserting new element O(logN), worst case O(N)
 * Total complexity : O(logN), worst case O(N)
 * Total complexity for N elements : O(NlogN), worst case O(N)^2
